@@ -6,7 +6,7 @@
 # Descobrir usuário e senha criptografada
 mongo --port 27117 ace --eval "db.admin.find().forEach(printjson);"
 
-# Criptografia é um sha-512 com SALTA 9Ter1EZ9$lSt6
+# Criptografia é um sha-512 com SALT 9Ter1EZ9$lSt6
 # https://tomi.cc/hash/
 # senha padrão igual a password
 
